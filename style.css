@@ -1,0 +1,113 @@
+body {
+    font-family: 'Fira Sans', sans-serif;
+    color: azure;
+    margin: 0px;
+    padding: 0px;
+    background-image: url("img/GYMbg.jpg");
+    background-size: 185%;
+
+}
+
+.Left {
+    display: inline-block;
+    position: absolute;
+    left: 34px;
+    top: 20px;
+}
+
+.Left img {
+    width: 135px;
+    text-align: center;
+}
+
+.Left div {
+    text-align: center;
+    height: 19px;
+    font-size: 19px;
+}
+
+.Mid {
+    display: block;
+    width: 50%;
+    margin: 25px auto;
+ }
+
+.Right {
+    position: absolute;
+    right: 34px;
+    top: 20px;
+    display: inline-block;
+}
+
+.navbar {
+    display: inline-block;
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 17px;
+}
+
+.navbar li a {
+    color: azure;
+    text-decoration: none;
+    padding: 64px 24px;
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+    text-decoration: underline;
+    color: gray;
+
+
+}
+
+.btn {
+    font-family: 'Fira Sans', sans-serif;
+    margin: 9px 0px;
+    background-color: black;
+    color: azure;
+    padding: 4px 14px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.btn a:hover {
+    background-color: grey;
+
+}
+
+
+.container {
+    border: 2px solid white;
+    margin: 106px 80px;
+    padding: 75px;
+    width: 33%;
+    border-radius: 28px;
+}
+
+.container h1 {
+    text-align: center;
+}
+
+.container button {
+    display: block;
+    width: 74%;
+    margin: 20px auto;
+}
+
+.form-group input{
+    text-align: center;
+    display: block;
+    width: 500px;
+    padding: 6px;
+    border: solid black ;
+    margin: 5px auto; 
+    border-radius: 15px;
+}
+
+.btn{
+    align-self: center;
+ }
